@@ -20,24 +20,14 @@
     <section class="container-fluid">
 
         <!-- Heading -->
-        <div class="row header mb-4">
-            <div class="col-12 p-4 p-lg-5 headerTxt">
-                <div class="mainHeadTxt">
-                    <h1><span class="mainHead">TMC: </span>Trivuj Math Club</h1>
-                    <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias mollitia, iste explicabo
-                        eius corrupti repellat asperiores vero maiores fugiat debitis.</p>
-                </div>
-                <div class="topBtns">
-                    <a href="#"><button class="btn btn-primary px-4 me-3">Register</button></a>
-                    <a href="#"><button class="btn btn-outline-primary border-2 px-4">Log In</button></a>
-                
-                    <!-- <button class="btn btn-outline-primary border-2 px-4">Log In</button> -->
-                </div>
+        <div class="row topHead">
+            <div class="col-12 my-5">
+                <h1 class="topHeadline">TMC: Trivuj Math Club</h1>
+                <p class="topSubtext"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, accusamus</i></p>
             </div>
-            <div class="col-md-5 p-4 p-lg-5">
-                <div class="imgContain">
-                    <img src="images/tmc1.png" class="" alt="">
-                </div>
+            <div class="col-12 topBtnBox mb-5">
+                <button class="btn topBtnLogin">Log In</button>
+                <a href="#"><button class="btn topBtnSignup">Register</button></a>
             </div>
         </div>
 
@@ -45,11 +35,10 @@
         
 
     <section class="container">
-
         <!-- 3 blocks -->
-        <div class="row mb-4 justify-content-md-between flex-column flex-md-row">
-            <div class="col-lg-4 p-0 blockContainer">
-                <div class="blockWrap bg-white rounded shadow-sm">
+        <!-- <div class="row mb-4 justify-content-md-between flex-column flex-md-row bg-white mt-3">
+            <div class="col-md-2 p-0 blockContainer">
+                <div class="blockWrap bg-light">
                     <a href="#">
                         <div class="blocks">
                             <div class="blockIcon">
@@ -62,8 +51,8 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 p-0 blockContainer">
-                <div class="blockWrap bg-white rounded shadow-sm">
+            <div class="col-md-2 p-0 blockContainer">
+                <div class="blockWrap bg-light">
                     <a href="#">
                         <div class="blocks">
                             <div class="blockIcon">
@@ -76,8 +65,8 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 p-0 blockContainer">
-                <div class="blockWrap bg-white rounded shadow-sm">
+            <div class="col-md-2 p-0 blockContainer">
+                <div class="blockWrap bg-light">
                     <a href="#">
                         <div class="blocks">
                             <div class="blockIcon">
@@ -89,8 +78,75 @@
                         </div>
                     </a>
                 </div>
+            </div>
+        </div> -->
+        
+        <div class="row mt-4 blocks py-3 rounded mb-5 shadow">
+            <div class="col-3 p-0">
+                <div class="blockImg">
+                    <img class="img-fluid" src="images/tmc1.png" alt="">
+                </div>
+                <h3>Practice</h3>
+            </div>
+            <div class="col-1 blockArrowsCon p-0">
+                <img class="blockArrows img-fluid" src="images/right-arrow.png" alt="">
+            </div>
+            <div class="col-3 p-0">
+                <div class="blockImg">
+                    <img class="img-fluid" src="images/tmc1.png" alt="">
+                </div>
+                <h3>Solve Problems</h3>
+            </div>
+            <div class="col-1 blockArrowsCon p-0">
+                <img class="blockArrows img-fluid" src="images/right-arrow.png" alt="">
+            </div>
+            <div class="col-3 p-0">
+                <div class="blockImg">
+                    <img class="img-fluid" src="images/tmc1.png" alt="">
+                </div>
+                <h3>Make Yourself Better</h3>
             </div>
         </div>
+    
+    </section>
+    
+    <section class="container probBlockCon">
+        <div class="row text-center justify-content-center mb-5">
+
+            <div class="col-12 mt-5 mb-3 probBlockHead">
+                <h2>Solve Problems !!!</h2>
+                <div class="underLine"></div>
+            </div>
+
+            <div class="col-3">
+                <a href="#">
+                    <div class="probBlock phyBlock border rounded">
+
+                        <div class="probBlockImg mt-4 mb-5">
+                            <img src="images/physics.svg" alt="">
+                        </div>
+
+                        <h3 class="my-5">Physics Problems</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-3">
+                <a href="#">
+                    <div class="probBlock mathBlock border rounded">
+
+                        <div class="probBlockImg mt-4 mb-5">
+                            <img src="images/math-2.svg" alt="">
+                        </div>
+
+                        <h3 class="my-5">Math Problems</h3>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
 
         <!-- Profile -->
         <!-- <div class="row profile rounded mb-3">
@@ -152,7 +208,7 @@
         </div> -->
 
         <!-- Blog -->
-        <div class="row bg-white rounded p-4 pb-0 mb-3 blog">
+        <!-- <div class="row bg-white rounded p-4 pb-0 mb-3 blog">
             <div class="col-12">
                 <h3 class="mb-3 border-bottom py-2 border-3">Latest Blogs</h3>
 
@@ -236,7 +292,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
         <!-- Contest -->
         <!-- <div class="row my-3">
@@ -253,10 +309,97 @@
                 </div>
             </div>
         </div> -->
-    
-    </section>
 
+    <section class="container-fluid blogCon">
+        <div class="row p-4 pb-0 blog">
+            <div class="col-12">
+                <h2 class="mt-1 pt-1 text-center">Latest Blogs</h2>
+                <div class="underLine mb-4"></div>
+
+                <div class="row">
+
+                    <div class="owl-carousel col-12">
+                        <div class="blogCard p-0 rounded mb-3">
+                            <a href="#">
+                                <div class="blogImg">
+                                    <img class="img-fluid" src="images/blog.jpg" alt="">
+                                </div>
+                                <div class="blogTxt p-3">
+                                    <h3>Blog Title <small>By <span class="blogWritter">Rafsan Hasan</span></small></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique,
+                                        minima repellat repudiandae ullam eveniet a ea sit iste soluta!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blogCard p-0 rounded mb-3">
+                            <a href="#">
+                                <div class="blogImg">
+                                    <img class="img-fluid" src="images/blog.jpg" alt="">
+                                </div>
+                                <div class="blogTxt p-3">
+                                    <h3>Blog Title <small>By <span class="blogWritter">Rafsan Hasan</span></small></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique,
+                                        minima repellat repudiandae ullam eveniet a ea sit iste soluta!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blogCard p-0 rounded mb-3">
+                            <a href="#">
+                                <div class="blogImg">
+                                    <img class="img-fluid" src="images/blog.jpg" alt="">
+                                </div>
+                                <div class="blogTxt p-3">
+                                    <h3>Blog Title <small>By <span class="blogWritter">Rafsan Hasan</span></small></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique,
+                                        minima repellat repudiandae ullam eveniet a ea sit iste soluta!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blogCard p-0 rounded mb-3">
+                            <a href="#">
+                                <div class="blogImg">
+                                    <img class="img-fluid" src="images/blog.jpg" alt="">
+                                </div>
+                                <div class="blogTxt p-3">
+                                    <h3>Blog Title <small>By <span class="blogWritter">Rafsan Hasan</span></small></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique,
+                                        minima repellat repudiandae ullam eveniet a ea sit iste soluta!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blogCard p-0 rounded mb-3">
+                            <a href="#">
+                                <div class="blogImg">
+                                    <img class="img-fluid" src="images/blog.jpg" alt="">
+                                </div>
+                                <div class="blogTxt p-3">
+                                    <h3>Blog Title <small>By <span class="blogWritter">Rafsan Hasan</span></small></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique,
+                                        minima repellat repudiandae ullam eveniet a ea sit iste soluta!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blogCard p-0 rounded mb-3">
+                            <a href="#">
+                                <div class="blogImg">
+                                    <img class="img-fluid" src="images/blog.jpg" alt="">
+                                </div>
+                                <div class="blogTxt p-3">
+                                    <h3>Blog Title <small>By <span class="blogWritter">Rafsan Hasan</span></small></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique,
+                                        minima repellat repudiandae ullam eveniet a ea sit iste soluta!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
     
+
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
