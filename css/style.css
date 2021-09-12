@@ -388,6 +388,100 @@ body {
     margin: 5px 0px;
 }
 button.owl-prev span::after {content: "Prev";font-size: 26px;vertical-align: middle;margin-left: 6px;}
+
+/* Problem set's css ========================== */
+
+.problem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-top: 1px solid #c8c3c3; */
+    padding: 10px 25px;
+    /* box-shadow: 0px 7px 4px #f3f3f3; */
+}
+.problemContainer {
+    padding: 0;
+    overflow-x: hidden;
+    /* margin-bottom: 10px; */
+    border-radius: 0.25rem;
+}
+.problem a {
+    text-decoration: none;
+}
+.problem:not(:first-child) {
+    border-top: 1px solid #dcdcdc;
+}
+.tags {
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+span.tag1 {
+    background: #eef3fc;
+    color: #2160c4;
+}
+.probNameTag {
+    color: var(--btn-color);
+}
+.tags span {
+    background: #00ff0017;
+    padding: 4px 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+span.easy {
+    background: #ebfffc;
+    color: #00947e;
+}
+span.medium {
+    background: #fffbeb;
+    color: #947600;
+}
+span.medium-hard {
+    background: #f6ecfe;
+    color: #b00fcc;
+}
+span.hard {
+    background: #feecf0;
+    color: #cc0f35;
+}
+.problem a {
+    text-decoration: none;
+}
+.solveBtn button {
+    padding: 5px 20px;
+    border-color: #dcdcdc;
+}
+.problem:hover {
+    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02)!important;
+}
+.recentProbsSec {
+    background: #dcdcdc2e;
+}
+.recentProbsBtnCon {
+    display: grid;
+    grid-template-columns: 9% 9%;
+    justify-content: center;
+}
+
+.recentProbsBtnCon div {
+    /* border: 1px solid #dcdcdc5c; */
+    /* border-color: var(--btn-color); */
+    text-align: center;
+    padding: 13px;
+    /* color: whitesmoke; */
+    background: #eef3fc;
+    border-radius: 2px;
+    margin: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+.tabSelected {
+    background: white !important;
+    border-color: #eef3fc !important;
+}
+/* Problem set's css ========================== */
+
 /* Hover ================================ */
 .profileName h4:hover {
     background: #ffbd595c;
