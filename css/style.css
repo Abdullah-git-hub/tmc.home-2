@@ -482,6 +482,72 @@ span.hard {
 }
 /* Problem set's css ========================== */
 
+.leaderCrown {
+    width: 40px;
+    box-shadow: 0px 0px 8px 1px white;
+    border-radius: 50%;
+    background: white;
+}
+
+.idLink {
+    text-decoration: none;
+    color: white;
+    /* background: orange; */
+    padding: 3px 4px;
+    border-radius: 0.25rem;
+    font-weight: 600;
+}
+
+table p {
+    margin: 0;
+}
+.leaderBoard table {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.leaderBoard table tbody tr td:nth-child(1) {
+    text-align: end;
+    font-weight: 700;
+}
+
+.leaderBoard table thead tr td:nth-child(1) {
+    text-align: end;
+}
+
+.leaderBoard table td {
+    padding: 16px 10px;
+}
+.leaderBoard table tr {
+    /* border-bottom: 1px solid #dcdcdc; */
+}
+
+.leaderBoard table tbody tr:hover {
+    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02)!important;
+}
+tr.top_1 {
+    /* box-shadow: 0px 0px 13px 2px #ff5757a3; */
+    background: linear-gradient(45deg, #ff000059, #f59b9b8f);
+    border: none;
+}
+
+tr.top_2 {
+    background: linear-gradient(45deg, #0098ff87, #0098ff57);
+    /* box-shadow: 0px 0px 13px 2px #ff914d45; */
+    /* color: white; */
+}
+
+.top_3 {
+    background: linear-gradient(45deg, #1dd6878f, #1dd68733);
+    /* color: white; */
+}
+.leaderBoard {
+    overflow: hidden;
+}
+.leaderBoard table thead {
+    font-weight: 700;
+}
 /* Hover ================================ */
 .profileName h4:hover {
     background: #ffbd595c;
