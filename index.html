@@ -8,7 +8,7 @@
     <title>Home Page</title>
     <link rel="shortcut icon" href="images/tmc2fav.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="https://kit.fontawesome.com/d708101dd1.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/d708101dd1.js" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
@@ -406,16 +406,16 @@
                 <div class="underLine"></div>
             </div>
             <div class="recentProbsBtnCon mt-4 mb-0">
-                <div class="tabSelected" id="recPhy">
-                    <h4>Physics</h4>
+                <div class="tabSelected" id="recPhy" onclick="tab('phy')">
+                    <h4 onclick="tab('phy')">Physics</h4>
                 </div>
-                <div class="" id="recMath">
-                    <h4>Math</h4>
+                <div class="" id="recMath" onclick="tab('math')">
+                    <h4 onclick="tab('math')">Math</h4>
                 </div>
             </div>
             <!-- Problems will be displayed in the following problemContainer div -->
-            <div class="problemContainer bg-white shadow col-10">
-                <div class="problem">
+            <div class="problemContainer bg-white shadow col-10" id="problemContainer">
+                <!-- <div class="problem">
                     <a href="#" class="probNameTag">
                         <h4>Problem Name</h4>
                         <div class="tags">
@@ -485,12 +485,12 @@
                     <div class="solveBtn">
                         <a href="#"><button class="btn btn-outline-primary">Solve</button></a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <!-- Physics Problems Here -->
-        <div id="allProbs" hidden>
+        <div id="phyProbs" hidden>
             <div class="problem">
                 <a href="#" class="probNameTag">
                     <h4>Problem Name</h4>
@@ -539,7 +539,7 @@
                 </div>
             </div>
 
-            <div class="problem">
+            <!-- <div class="problem">
                 <a href="#" class="probNameTag">
                     <h4>Problem Name</h4>
                     <div class="tags">
@@ -561,12 +561,12 @@
                 <div class="solveBtn">
                     <a href="#"><button class="btn btn-outline-primary">Solve</button></a>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
         <!-- Math Problems Here -->
-        <div id="allProbs" hidden>
+        <div id="mathProbs" hidden>
             <div class="problem">
                 <a href="#" class="probNameTag">
                     <h4>Problem Name</h4>
@@ -591,7 +591,7 @@
                 </div>
             </div>
 
-            <div class="problem">
+            <!-- <div class="problem">
                 <a href="#" class="probNameTag">
                     <h4>Problem Name</h4>
                     <div class="tags">
@@ -637,7 +637,7 @@
                 <div class="solveBtn">
                     <a href="#"><button class="btn btn-outline-primary">Solve</button></a>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>
@@ -689,9 +689,9 @@
     </section>
 
     <script src="js/jquery.js"></script>
-    <script src="js/popper.js"></script>
+    <!-- <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.js"></script> -->
     <script src="js/main.js"></script>
 </body>
 
