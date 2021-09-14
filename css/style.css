@@ -582,6 +582,12 @@ tr.top_2 {
 
 /* media ========== */
 
+@media (max-width: 1300px){
+    .recentProbsBtnCon {
+        grid-template-columns: 16% 16%;
+    }
+}
+
 @media(max-width: 780px){
     .blockContainer {
         width: 100%;
@@ -598,5 +604,53 @@ tr.top_2 {
     .footerIcon {
         text-align: center;
         margin-bottom: 20px;
+    }
+    .topHeadline {
+        font-size: 40px;
+    }
+    
+    .topSubtext {
+        font-size: 12px;
+    }
+    
+    .topBtnLogin {font-size: 15px;padding: 8px 23px;}
+    
+    .topBtnSignup {
+        font-size: 15px;
+        padding: 8px 25px;
+    }
+    .topBtnLogin:hover {
+        background: #ffffffad;
+        color: black;
+        padding: 9px 25px;
+    }
+    .blocks h3 {
+        font-size: 16px !important;
+    }
+    .blockArrows {
+        width: 18px;
+        /* transform: rotate(90deg);
+        margin: 20px 0px;
+        width: 30px; */
+    }
+    .recentProbsBtnCon {
+        grid-template-columns: 20% 20%;
+    }
+    .underLine {
+        width: 30%;
+    }
+    .blockImg {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px){
+    .blockArrows {
+        transform: rotate(90deg);
+        margin: 20px 0px;
+        width: 30px;
+    }
+    .recentProbsBtnCon {
+        grid-template-columns: 35% 35%;
     }
 }
